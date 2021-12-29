@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#1E90FF;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+}
+
+.goal{
+    background-color: #F45680;
+    margin:auto;
+    height: 95vh;
+    width: 95vw;
+    border-radius: 20px;
+}
+
+#success{
+    background-image: url(img/success.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    display: none; 
+}
+
+#fail{
+    background-image: url(img/fail.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    display: none;   
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    width:  95vw;
+    background-color: #00B5FF;
+    border-radius: 20px;
+}
+
+#gameArea{
+    background-color: #F9F871 ;
+}
+
+#scoreArea{
+    background-color: #90F489;
+}
+
+.area{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+}
+
+.wrapper{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00D1EE;
+    box-shadow: 2px 2px 5px #90F489;
+    padding: 1rem;
+    border-radius: 20px;    
+}
+
+.gameBox, .scoreBox{
+    background-color: #E6F4F1;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+}
+
+.gameBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height:20vh;
+    width: 20vw;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+
+.scoreBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 10vh;
+    width: 10vw;
+    border-radius: 20px;
+}
+
+h1{
+    background-color:#90F489 ;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    padding: 1rem;
+    margin: 0 2rem;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+    border-radius: 20px;  
+}
+
+h3{
+    margin-top: 0px;
+}
+
+button{
+    height: 5vh;
+    width: 10vw;
+    margin-top: 2rem;
+    border-radius: 10px;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.5rem;
+}
+
+button:active{
+    transform: scale(0.95);
+}

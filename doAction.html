@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do the Action</title>
+    <link rel="stylesheet" href="doAction.css">
+</head>
+
+<body>
+    
+    <div class="goal" id="success"></div>
+    <div class="goal" id="fail"></div>
+
+    <div  id="container">
+        <h1>Can you do the Action?</h1>
+
+        <div class="area" id="gameArea">
+
+            <div class="wrapper" id="randomAction">
+                <h2>Action</h2>
+                <div class="gameBox" id="actionBox"></div>
+                <button id="actionButton">go</button>
+            </div>
+
+            <div class="wrapper" id="randomColour">
+                <h2>Colour</h2>
+                <div class="gameBox" id="colourBox"></div>
+                <button id="colourButton">go</button>
+            </div>
+
+            <div class="wrapper" id="randomObject">
+                <h2>Object</h2>
+                <div class="gameBox" id="objectBox"></div>
+                <button id="objectButton">go</button>
+            </div>
+
+        </div>
+
+
+        <div class="area" id="scoreArea">
+          
+            <div class="wrapper" id="canScore">
+                <h3>✔</h3>
+                <div class="scoreBox" id="canBox">0</div>
+            </div>
+
+            <div class="wrapper" id="cantScore">
+                <h3>✘</h3>
+                <div class="scoreBox" id="cantBox">0</div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="doAction.js"></script>
+</body>
+</html>
